@@ -118,7 +118,7 @@ runhaskell Setup.hs configure -v2 \
 	--libexecdir=%{_libexecdir} \
 	--docdir=%{_docdir}/%{name}-%{version}
 
-runhaskell Setup.hs build
+runhaskell Setup.hs build %{?_smp_mflags}
 runhaskell Setup.hs haddock --executables
 
 %install

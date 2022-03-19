@@ -17,12 +17,12 @@ BuildRequires:	ghc >= 6.12.3
 BuildRequires:	ghc-asn1-encoding
 BuildRequires:	ghc-asn1-types >= 0.2.0
 BuildRequires:	ghc-async >= 2.0
-BuildRequires:	ghc-cereal >=0.5.3
+BuildRequires:	ghc-cereal >= 0.5.3
 BuildRequires:	ghc-cryptonite >= 0.25
 BuildRequires:	ghc-data-default-class
 BuildRequires:	ghc-hourglass
 BuildRequires:	ghc-memory >= 0.14.6
-BuildRequires:	ghc-network >=2.4.0.0
+BuildRequires:	ghc-network >= 2.4.0.0
 BuildRequires:	ghc-transformers
 BuildRequires:	ghc-x509 >= 1.7.5
 BuildRequires:	ghc-x509-store >= 1.6
@@ -32,12 +32,12 @@ BuildRequires:	ghc-prof
 BuildRequires:	ghc-asn1-encoding-prof
 BuildRequires:	ghc-asn1-types-prof >= 0.2.0
 BuildRequires:	ghc-async-prof >= 2.0
-BuildRequires:	ghc-cereal-prof >=0.5.3
+BuildRequires:	ghc-cereal-prof >= 0.5.3
 BuildRequires:	ghc-cryptonite-prof >= 0.25
 BuildRequires:	ghc-data-default-class-prof
 BuildRequires:	ghc-hourglass-prof
 BuildRequires:	ghc-memory-prof >= 0.14.6
-BuildRequires:	ghc-network-prof >=2.4.0.0
+BuildRequires:	ghc-network-prof >= 2.4.0.0
 BuildRequires:	ghc-transformers-prof
 BuildRequires:	ghc-x509-prof >= 1.7.5
 BuildRequires:	ghc-x509-store-prof >= 1.6
@@ -49,12 +49,12 @@ Requires(post,postun):	/usr/bin/ghc-pkg
 Requires:	ghc-asn1-encoding
 Requires:	ghc-asn1-types >= 0.2.0
 Requires:	ghc-async >= 2.0
-Requires:	ghc-cereal >=0.5.3
+Requires:	ghc-cereal >= 0.5.3
 Requires:	ghc-cryptonite >= 0.25
 Requires:	ghc-data-default-class
 Requires:	ghc-hourglass
 Requires:	ghc-memory >= 0.14.6
-Requires:	ghc-network >=2.4.0.0
+Requires:	ghc-network >= 2.4.0.0
 Requires:	ghc-transformers
 Requires:	ghc-x509 >= 1.7.5
 Requires:	ghc-x509-store >= 1.6
@@ -88,12 +88,12 @@ Requires:	%{name} = %{version}-%{release}
 Requires:	ghc-asn1-encoding-prof
 Requires:	ghc-asn1-types-prof >= 0.2.0
 Requires:	ghc-async-prof >= 2.0
-Requires:	ghc-cereal-prof >=0.5.3
+Requires:	ghc-cereal-prof >= 0.5.3
 Requires:	ghc-cryptonite-prof >= 0.25
 Requires:	ghc-data-default-class-prof
 Requires:	ghc-hourglass-prof
 Requires:	ghc-memory-prof >= 0.14.6
-Requires:	ghc-network-prof >=2.4.0.0
+Requires:	ghc-network-prof >= 2.4.0.0
 Requires:	ghc-transformers-prof
 Requires:	ghc-x509-prof >= 1.7.5
 Requires:	ghc-x509-store-prof >= 1.6

@@ -6,7 +6,7 @@
 Summary:	TLS/SSL protocol native implementation (Server and Client)
 Name:		ghc-%{pkgname}
 Version:	1.5.4
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Languages
 #Source0Download: http://hackage.haskell.org/package/tls
